@@ -1,0 +1,40 @@
+.tabledata{
+    background-color: #525252;
+    border-radius: 0.5rem;
+    margin-top : 80px;
+	margin-bottom: 80px;
+}
+.tableda{
+    margin-top : 2.5rem;
+}
+thead{
+    text-transform: uppercase;
+}
+td.tabledas{
+    padding-top: 3rem;
+}
+.modal-body input{
+	color: black;
+}
+.modal-body input:focus{
+	color: black;
+}
+.modal-body textarea{
+	color: black;
+}
+.modal-body textarea:focus{
+	color: black;
+}
+.modal-body select{
+	color: black;
+}
+.modal-body select:focus{
+	color: black;
+}
+i.fab.fa-whatsapp-square {
+    color: #38EB3A;
+    font-size: 4rem;
+    position: absolute;
+    top: 14rem;
+    padding-left: 9rem;
+}

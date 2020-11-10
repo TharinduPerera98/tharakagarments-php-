@@ -1,0 +1,114 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+	background-color: #E9ECEF;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contentreg{
+	margin: 0 auto;
+	margin-top : 100px;
+	margin-bottom: 100px;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 3rem;
+	padding-bottom: 2rem;
+	background: rgba(0,0,0,.6)!important;
+	color: wheat;
+	text-transform: uppercase;
+	border-radius: 9px;
+	box-shadow: 0 0 3px #1F2E32;
+}
+.rows{
+	margin-top: 0.5rem;
+}
+.rowsbtn{
+	margin-top: 1rem;
+}
+.rowss{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.top img{
+	height: 120px;
+    width: 120px;
+	margin: 2rem 0;
+}
+
+.btn{
+	text-transform: uppercase;
+	padding: .6rem 3rem ;
+	font-size: 1rem;
+	text-shadow: .1rem .1rem .8rem white;
+}
+.btn-outline-success{
+    margin: 0 1.3rem;
+}
+.register{
+	font-size: 2.5rem;
+	margin-left: 2rem;
+	text-shadow: .1rem .1rem .8rem white;
+}
+.vali i{
+    visibility: hidden;
+	font-size: 1.5rem;
+	position: absolute;
+	top: -.5rem;
+	right: 1.5rem;
+}
+.error i.fa-exclamation-circle{
+	visibility: visible;
+	color: #AA0B0D;
+}
+
+.success i.fa-check-circle{
+	visibility: visible;
+	color: #77D826;
+}
+
+.error input.form-control {
+	border: 2px solid #AA0B0D;
+	box-shadow: 0 0 3px #AA0B0D;
+}
+.error textarea.form-control {
+	border: 2px solid #AA0B0D;
+	box-shadow: 0 0 3px #AA0B0D;
+}
+.success input.form-control {
+	border: 2px solid #77D826;
+	box-shadow: 0 0 3px #77D826;
+}
+.success textarea.form-control {
+	border: 2px solid #77D826;
+	box-shadow: 0 0 3px #77D826;
+}
+
+.vali small{
+	visibility: hidden;
+	position: absolute;
+	bottom: 0;
+	top: 2.5rem;
+}
+
+.error small{
+	visibility: visible;
+    color: #AA0B0D;
+}
+
+.Label{
+	margin: 6px 0 0;
+	padding-bottom: 1rem;
+}
+.Labeltext{
+	text-transform: none;
+}
+.profileimg{
+    height: 13rem;
+    width: 13rem;
+    margin: 0 auto;
+}
+.rowone{
+    margin-top: 2rem;
+}

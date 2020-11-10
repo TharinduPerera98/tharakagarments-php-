@@ -1,0 +1,179 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+    background-color: #e9ecef;
+	color: #9F0C0C;
+    overflow-x: hidden;
+}
+.offset:before{
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+.btn-lg{
+	border-width: medium;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+	text-shadow: .1rem .1rem .8rem #C55094;
+}
+.hedding {
+	padding-bottom: .8rem;
+	font-weight: 300;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+    color: #9F0C0C;
+}
+.hedding2 {
+    padding-left: 1rem;
+	padding-bottom: 1.5rem;
+	font-weight: 300;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+    color: #9F0C0C;
+}
+.col-12 hr{
+	padding-bottom: 1rem;
+}
+
+.fas{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.narrow{
+	width: 75%;
+	margin: 1.5rem auto;
+}
+.Planing h3{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: .8rem;
+}
+.Planing p{
+	font-size: 1.1rem;
+}
+.form-check{
+    padding: 0;
+}
+.modal-content{
+	opacity: 0.96;
+	background-color: #323232;
+	opacity: .90;
+	text-transform: uppercase;
+}
+.modal-body img{
+	height: 9rem;
+}
+.modal-body{
+	font-size: 1.1rem;
+	font-weight: 100;
+    margin-bottom: 1rem;
+}
+.login{
+	text-transform: uppercase;
+	text-shadow: .1rem .1rem .8rem #9F0C0C;
+}
+.account{
+	color: white;
+}
+.account:hover{
+	color: white;
+	text-shadow: .1rem .1rem .8rem #9F0C0C;
+}
+.jumbotron .d-lg-block{
+	margin: 0;
+    padding-top: 4rem;
+    
+}
+@media (min-width: 576px){
+    .jumbotron {
+    padding-top: 1rem;
+}
+}
+.card{
+	width: 24rem;
+	margin: 0 auto;
+	border-radius: 1rem;
+}
+.cardcss{
+	padding-bottom: 1rem !important;
+}
+.inner{
+	overflow: hidden;
+}
+
+.col-md-4{
+	padding: 0;
+}
+.card-img-top {
+	color: aliceblue;
+	height: 18rem;
+	width: 22rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 1rem 1rem;
+	transition: all 1.5s ease;
+	border-radius: .5rem;
+	
+}
+.cd1 .card-img-top{
+	background-image: url("../images/Gents.png");
+}
+.cd2 .card-img-top{
+	background-image: url("../images/Mens.png");
+}
+.cd3 .card-img-top{
+	background-image: url("../images/Ladies.png");
+}
+.cd4 .card-img-top{
+	background-image: url("../images/Girls.png");
+}
+.cd5 .card-img-top{
+	background-image: url("../images/Kids.png");
+}
+.cd6 .card-img-top{
+	background-image: url("../images/Others.png");
+}
+div.dropdown-menu{
+	background: rgba(0,0,0,.6)!important;
+	text-shadow: .1rem .1rem .8rem #9F0C0C;
+}
+.dropdown-item{
+	color: white;
+}
+.spectestada{
+    position: absolute;
+    top: -1.7rem;
+}
+.product1{
+    margin-left: 1.5rem;
+}
+.dropdown img{
+	height: 2.5rem;
+    width: 2.5rem;
+	margin-right: .5rem;
+}
+a.nav-link.dropdown-toggle.datadropdown {
+    padding-top: 5.5px;
+}
+.dropdown-header {
+    color: white;
+    margin-left: -1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
